@@ -1,0 +1,53 @@
+/*
+Tiffany Ferderer
+3/4/2020
+startpage.css
+This page holds styles specific to the Home page */
+
+/*Main Styles*/
+main {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h1, article, aside {
+    background-color: #eaced0;
+    border-radius: 10px;
+    border: 3px solid #cdafb3;
+}
+
+h1 {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 5px;
+}
+article {
+    margin-top: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+aside {
+    color:#c69096;
+    margin-top: 10px;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 3px;
+}
+
+h1, aside {
+    border-radius: 10px;
+    border: 3px solid #cdafb3;
+}
+
+p {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* Image Styles */
+img {
+   width: 32%;
+   margin-top: .2em;
+}
+
+

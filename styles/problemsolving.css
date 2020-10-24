@@ -1,0 +1,78 @@
+/*
+Tiffany Ferderer
+3/4/2020
+problemsolving.css
+Stylesheet specific to the game page 
+*/
+
+/* Classes used with mouse events */
+.border {
+    color: #cfafb3;
+    border: 5px solid #e7e08b;
+}
+
+.noborder {
+   color: black;
+}
+
+/* Main styles */
+h1, div#problem {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+}
+
+h1, div#problem, li, main {
+    background-color: #eaced0;
+    border-radius: 10px;
+    border: 3px solid #cdafb3;
+}
+
+body {
+    text-align: center;
+}
+
+main {
+    background-color: #c69096;
+    margin-top:2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div#problem {
+    padding: 5%;
+    font-size: 5.0em;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p, h2 {
+    color: #eaced0;
+}
+
+/* Grid layout */
+ul {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    font-size: 5.0em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+li {
+    margin: 15px;
+}
+
+li:first-of-type {
+    grid-column: 1;
+}
+li:nth-of-type(2) {
+    grid-column: 2;
+}
+li:last-of-type {
+    grid-column: 3;
+}
+

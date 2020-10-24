@@ -1,0 +1,58 @@
+/*
+Tiffany Ferderer
+3/4/2020
+generallayout.css
+This stylesheet holds all general styles shared
+thoughought each page
+*/
+
+/* HTML & h Styles */
+html {
+    font-size: 1.1em;
+    background: url("../images/mathwallpaper.jpg")100% repeat;
+    background-attachment: fixed;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1, h2 {
+    font-size: 1.3em;
+    font-weight: 200;
+    padding: .2em;
+}
+
+
+/* Navigation Styles*/
+header nav{
+   
+    padding-top: 20px;
+    padding-right: 15px;
+    text-align: center;
+    font-size:1.1em;
+    display:grid;
+    grid-template-columns: 4fr 1fr 1fr;
+
+}
+a:link, a:visited {
+    color: #c69096;
+}
+header div:first-of-type {
+    
+    grid-column: 2;
+    background-color: #EACED0;
+    padding: 15px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+header div:last-of-type {
+    padding: 15px;
+    grid-column: 3;
+    background-color: #EACED0;
+    border-bottom-right-radius: 6px;
+}
+
+/* Image Styles */
+img{
+    border-radius: 15px;
+    border: 5px solid #cdafb3;
+}
+
